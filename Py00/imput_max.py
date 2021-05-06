@@ -1,0 +1,7 @@
+a = int(input("Introduce un número: "))
+b = int(input("Otro: "))
+c = int(input("Uno más: "))
+maximo = max(a, b, c)
+minimo = min(a, b, c)
+print("El número más grande es el " maximo)
+print("Y el más pequeño es el ", minimo)
